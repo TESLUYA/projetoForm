@@ -1,0 +1,67 @@
+body {
+    margin: 0; /* margem da página */
+    font-family: 'Arial, sans-serif'; /* Fonte padrão da página */
+    background-color: #f4f6f8;  /* Cor de fundo */
+    color: #333; /* Cor padrão do corpo da página */
+}
+
+header {
+    background-color: #0d47a1;
+    color: white;
+    display: flex;  /* Organização do cabeçalho (Um do lado do outro */
+    justify-content: space-between; /* Organização do cabeçalho ( primeiro do lado esquerdo, segundo do lado direito e restante no centro */
+    align-items: center;
+    padding: 15px 40px;
+}
+.logo h1{
+
+    margin: 0;
+    font-size: 28px;
+
+}
+.logo span{
+
+    color: #ffcc00;
+}
+nav a{ 
+
+    color: white;
+    margin-left:  20px; /* margem entre links */
+    text-decoration: none;/* linha padrão no texto  */
+    font-weight: bold; /* negrito */
+}
+/*  */
+nav a:hover{
+
+    text-decoration: underline;
+    color: rgb(7, 166, 7);
+
+}
+.banner{
+
+    background:linear-gradient(to right, #0d47a1,#1976d2);
+    color: white; /* cor do texto */
+    text-align: center; /* Centraliza o texto */
+    padding: 100px 20px; /* Espaçamento entre o texto e a margem */
+}
+.banner h2{
+
+    font-size: 36px;
+    margin-bottom: 10px;
+}
+.banner p{
+    font-size: 18px;
+    margin-bottom: 20px;
+}
+.botao{
+    background-color: #ffcc00;
+    color: #0d47a1;
+    padding: 12px 24px;
+    border-radius: 8px;
+    text-decoration: none;
+    font-weight: bold;
+}
+.botao:hover{
+/* hover: efeito ao passar o mouse em cima */
+    background-color: #ffd747;
+}
